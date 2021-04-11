@@ -1,4 +1,6 @@
-<p align="center"><img src="https://lh5.googleusercontent.com/aqCkUhF3qL-jUfv2h6HCn9pnRehJGs6daseAdHzF7WCQ7s5g1mK0C1rRWX4MOmKlif7vl9FsHXo12w=w1317-h666" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="Mostrando shell_3.JPG" aria-hidden="true"></P>
+<p align="center"><img src="https://lh5.googleusercontent.com/aqCkUhF3qL-jUfv2h6\
+HCn9pnRehJGs6daseAdHzF7WCQ7s5g1mK0C1rRWX4MOmKlif7vl9FsHXo12w=w1317-h666" class="\
+ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="Mostrando shell_3.JPG" aria-hidden="true"></P>
 
 # Simple Shell :computer:
 
@@ -11,7 +13,7 @@ or execution of programs.
 ## Compile
 In order to build the project you need to have all the files and put the following command
 
-gcc -Wall -Werror -Wextra -pedantic holberton.h *.c -o hsh
+$ gcc -Wall -Werror -Wextra -pedantic holberton.h *.c -o hsh
 
 which generates an executable called **hsh** with which you can run the simple Shell and test commands 
 
