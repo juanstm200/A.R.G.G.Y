@@ -1,6 +1,6 @@
 <p align="center"><img src="https://lh5.googleusercontent.com/aqCkUhF3qL-jUfv2h6HCn9pnRehJGs6daseAdHzF7WCQ7s5g1mK0C1rRWX4MOmKlif7vl9FsHXo12w=w1317-h666" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="Mostrando shell_3.JPG" aria-hidden="true"></P>
 
-# Simple Shell
+# Simple Shell :computer:
 
 
 This repository contains the program written in C to simulate a Shell, is a command
@@ -8,7 +8,7 @@ interpreter where the user has an interface available through which they have th
 possibility of accessing the services of the operating system, as well as invocation
 or execution of programs
 
-## Files
+## Files :open_file_folder:
 
 - **README.md** : Contains the description of how the code works and
                   the description of the files used
