@@ -9,9 +9,9 @@ possibility of accessing the services of the operating system, as well as invoca
 or execution of programs.
 
 ## Example
-This example shows that the **ls -la** command is written at the Shell prompt which
+This example shows that the **ls -l** command is written at the Shell prompt which
 checks whether the command exists and if so the command is interpreted and sends
-it to the kernel which executes the command to list all hidden files and
+it to the kernel which executes the command to list all files and
 directories and print them on the screen
 
 <p align="center"><img src="https://imgs.developpaper.com/imgs/201810890740605.png"\>
