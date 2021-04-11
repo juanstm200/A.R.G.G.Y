@@ -24,3 +24,11 @@ or execution of programs
                        argument and looks in the PATH if the input command exists in the directory
 - **exec_com_args** : This file has the function of creating the child process
                       and executing the input argument
+## Requirements
+- Ubuntu 14.04 LTS
+- Functions and files will be compiled with gcc 4.8.4 with flags
+
+## Authors
+- **Cristian Pinzón Capera** - [faykris](https://github.com/faykris)
+- **Julio Cesar Arenas** - [jihuder](https://github.com/jihuder)
+- **Juan Sebastián Tovar** - [juanstm200](https://github.com/juanstm200)
