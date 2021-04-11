@@ -1,4 +1,4 @@
-<p align="center"><img src="https://lh5.googleusercontent.com/aqCkUhF3qL-jUfv2h6HCn9pnRehJGs6daseAdHzF7WCQ7s5g1mK0C1rRWX4MOmKlif7vl9FsHXo12w=w1317-h666" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="Mostrando shell_3.JPG" aria-hidden="true"></P>
+<p align="center"><img src="https://lh4.googleusercontent.com/F5tgGRGT0DUPDGyIGqFrT9o4qQVOuWftHwfBB9a4gve4Gr83P1-CQ2TfmfoREFHi_DR8Md7nysHzyw=w763-h666"/></p>
 
 # Simple Shell :computer:
 
