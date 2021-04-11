@@ -3,8 +3,8 @@
 # Simple Shell
 
 
-The shell is a command interpreter where the user has an interface available
-through which they have the possibility of accessing the services
+The shell is a command interpreter where the user has an interface available\
+through which they have the possibility of accessing the services\
 of the operating system, as well as invocation or execution of programs
 
 ## Files
