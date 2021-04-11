@@ -8,7 +8,8 @@ through which they have the possibility of accessing the services
 of the operating system, as well as invocation or execution of programs
 
 ## Files
-- **README.md**: contains the description of how the code works and the description of the files used
+- **README.md**: contains the description of how the code works and
+                 the description of the files used
 - **holberton.h** : is our header file that contains all the function calls and libraries that will be used in the Shell project
 - **get_path_dir** : This file contains the structure to make the call to the PATH and separate it by sud directories
 - **get_line_com** :this program contains the function to type at the  prompt and get the command line
