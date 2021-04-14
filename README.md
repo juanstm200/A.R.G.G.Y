@@ -47,10 +47,6 @@ which generates an executable called **hsh** with which you can run the simple S
                        argument and looks in the PATH if the input command exists in the directory.
 - **exec_com_args** : This file has the function of creating the child process
                       and executing the input argument.
-## Requirements 🛠️
-- Ubuntu 14.04 LTS
-- Functions and files will be compiled with gcc 4.8.4 with flags
-
 
 ## Syscall
 | Syscall | Description |
@@ -61,6 +57,10 @@ which generates an executable called **hsh** with which you can run the simple S
 | Kill | It is a call to the system sends a signal to a process for kill process |
 | Exit | Exit causes the normal termination of the process. |
 
+
+## Requirements 🛠️
+- Ubuntu 14.04 LTS
+- Functions and files will be compiled with gcc 4.8.4 with flags
 
 ## Authors ✒️
 - **Cristian Pinzón Capera** - [faykris](https://github.com/faykris)
