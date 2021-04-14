@@ -25,11 +25,15 @@ Commands are executed within the shell execution line, until you are given the o
 Commands are executed externally by sending arguments to the executable of our shell, either a text containing the arguments or content of an archiveor
 
 ## Compile
-In order to build the project you need to have all the files and put the following command
+In order  to  run  the  Cshell program  we  must  first compile the  files  and  Run  the  archiveor  resulting  from  the build.
 
-$ gcc -Wall -Werror -Wextra -pedantic holberton.h *.c -o hsh
+   *gcc -Wall -Wextra -Werror -pedantic *.c -o hsh*
+   *./hsh*
 
-which generates an executable called **hsh** with which you can run the simple Shell and test commands 
+The next  step is  to  specify the command line arguments  in addition to the options, the shell treats the first argument as the name of a file since it reads the command line, and the remaining arguments are set as the shell positional parameters, otherwise the shell reads commands from its standard input.
+
+    *Cshell - $ cat [File  Name]*
+
 
 ## Files :open_file_folder:
 
