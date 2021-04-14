@@ -27,13 +27,13 @@ Commands are executed externally by sending arguments to the executable of our s
 ## Compile
 In order  to  run  the  Cshell program  we  must  first compile the  files  and  Run  the  archiveor  resulting  from  the build.
 
-   **gcc -Wall -Wextra -Werror -pedantic *.c -o hsh**
+**gcc -Wall -Wextra -Werror -pedantic *.c -o hsh**
 
-   **./hsh**
+**./hsh**
 
 The next  step is  to  specify the command line arguments  in addition to the options, the shell treats the first argument as the name of a file since it reads the command line, and the remaining arguments are set as the shell positional parameters, otherwise the shell reads commands from its standard input.
 
-   Cshell - $ cat [File  Name]
+Cshell - $ cat [File  Name]
 
 
 ## Files :open_file_folder:
