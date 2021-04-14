@@ -33,7 +33,7 @@ In order  to  run  the  Cshell program  we  must  first compile the  files  and 
 
 The next  step is  to  specify the command line arguments  in addition to the options, the shell treats the first argument as the name of a file since it reads the command line, and the remaining arguments are set as the shell positional parameters, otherwise the shell reads commands from its standard input.
 
-*Cshell - $ cat [File  Name]*
+    *Cshell - $ cat [File  Name]*
 
 
 ## Files :open_file_folder:
