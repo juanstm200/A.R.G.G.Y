@@ -36,6 +36,10 @@ The next  step is  to  specify the command line arguments  in addition to the op
      Cshell - $ cat [File  Name]
 
 
+## Flowchart
+
+<p align="center"><img src="https://www.facebook.com/b0640da1-6d7a-45b8-8f21-5229a086a8b5"/></p>
+
 ## Files :open_file_folder:
 
 - **README.md** : Contains the description of how the code works and
