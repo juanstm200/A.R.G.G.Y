@@ -70,6 +70,9 @@ The next  step is  to  specify the command line arguments  in addition to the op
 ## Requirements 🛠️
 - Ubuntu 14.04 LTS
 - Functions and files will be compiled with gcc 4.8.4 with flags
+- The prototypes of all your functions should be included in your header file called holberton.h
+- No more than 5 functions per file
+- Your programs and functions will be compiled with gcc 4.8.4 using the flags gcc-Wall -Werror -Wextra -pedantic -Wno-format --std=c90 *.c
 
 ## Authors ✒️
 - **Cristian Pinzón Capera** - [faykris](https://github.com/faykris)
