@@ -25,3 +25,16 @@ Monty 0.98 is a scripting language that is first compiled into Monty bytecode li
 ```$ gcc -Wall -Werror -Wextra -pedantic *.c -o monty```
 
 ```$ ./monty file_monty.m```
+
+## Examples
+there is a file called 00.m for the example that will contain:
+
+      $ cat bytecodes/07.m 
+      push 1
+      push 2
+      push 3
+      pall
+      $ ./monty bytecodes/07.m 
+      3
+      2
+      1
