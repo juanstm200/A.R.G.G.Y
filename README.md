@@ -23,4 +23,5 @@ Monty 0.98 is a scripting language that is first compiled into Monty bytecode li
 
 ## Compile
 ```$ gcc -Wall -Werror -Wextra -pedantic *.c -o monty```
+
 ```$ ./monty file_monty.m```
