@@ -29,12 +29,12 @@ Monty 0.98 is a scripting language that is first compiled into Monty bytecode li
 ## Examples
 there is a file called 00.m for the example that will contain:
 
-      $ cat bytecodes/07.m 
+      $ cat bytecodes/00.m 
       push 1
       push 2
       push 3
       pall
-      $ ./monty bytecodes/07.m 
+      $ ./monty bytecodes/00.m 
       3
       2
       1
