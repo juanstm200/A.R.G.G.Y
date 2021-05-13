@@ -22,4 +22,5 @@ Monty 0.98 is a scripting language that is first compiled into Monty bytecode li
 - You have to use malloc and free and are not allowed to use any other function from man malloc (realloc, calloc, …)
 
 ## Compile
-```gcc -Wall -Werror -Wextra -pedantic *.c -o monty```
+```$ gcc -Wall -Werror -Wextra -pedantic *.c -o monty```
+```$ ./monty file_monty.m```
