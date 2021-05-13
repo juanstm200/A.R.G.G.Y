@@ -28,6 +28,7 @@ Monty 0.98 is a scripting language that is first compiled into Monty bytecode li
 
 ## Examples
 there is a file called 00.m for the example that will contain:
+the implementation of the code with push and pall:
 
       $ cat bytecodes/00.m 
       push 1
@@ -38,3 +39,15 @@ there is a file called 00.m for the example that will contain:
       3
       2
       1
+Implementing the pint opcode:
+	     $ cat bytecodes/06.m 
+	     push 1
+	     pint
+	     push 2
+	     pint
+	     push 3
+	     pint
+	     $ ./monty bytecodes/06.m 
+	     1
+	     2
+	     3
