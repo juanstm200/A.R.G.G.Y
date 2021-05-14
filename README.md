@@ -71,3 +71,7 @@ Implementing the pchar opcode:
 | selector.c |  selects function of opcode related to the line of monty |
 |stack_operations.c | determines the length of a stack |
 | strings.c| Determines the strings length. |
+
+## Authors ✒️
+- **Adriana Echeverri** - [adri-er](https://github.com/adri-er)
+- **Juan Sebastian Tovar** - [juanstm200]((https://github.com/juanstm200)
