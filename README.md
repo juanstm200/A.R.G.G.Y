@@ -66,8 +66,8 @@ Implementing the pchar opcode:
 | main.c  | contains the call to system functions |
 | op_functions1.c | contains the call to the function push, pall, pint and pop |
 | op_functions2.c | contains the call to the function swap, add, nop, sub and div |
-| op_rotr.c | 
-| processing_file_name.c |
-| selector.c |
-|stack_operations.c |
-| strings.c|
+| op_rotr.c | rotates the stack to the bottom |
+| processing_file_name.c | contains the buffer_clean and processes each line of the file introduced. |
+| selector.c |  selects function of opcode related to the line of monty |
+|stack_operations.c | determines the length of a stack |
+| strings.c| Determines the strings length. |
