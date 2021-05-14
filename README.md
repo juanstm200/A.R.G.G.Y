@@ -59,3 +59,15 @@ Implementing the pchar opcode:
       pchar
       $ ./monty bytecodes/28.m 
       E
+
+## Functions
+| Funcion | Description |
+|---------|-------------|
+| main.c  | contains the call to system functions |
+| op_functions1.c | contains the call to the function push, pall, pint and pop |
+| op_functions2.c | contains the call to the function swap, add, nop, sub and div |
+| op_rotr.c | 
+| processing_file_name.c |
+| selector.c |
+|stack_operations.c |
+| strings.c|
