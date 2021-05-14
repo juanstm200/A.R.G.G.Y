@@ -74,4 +74,4 @@ Implementing the pchar opcode:
 
 ## Authors ✒️
 - **Adriana Echeverri** - [adri-er](https://github.com/adri-er)
-- **Juan Sebastian Tovar** - [juanstm200]((https://github.com/juanstm200)
+- **Juan Sebastian Tovar** - [juanstm200](https://github.com/juanstm200)
