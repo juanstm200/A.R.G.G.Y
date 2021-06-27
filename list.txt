@@ -1,0 +1,9 @@
+main.c
+op_functions1.c
+op_functions2.c
+op_functions3.c
+op_rotr.c
+processing_file_name.c
+selector.c
+stack_operations.c
+strings.c
