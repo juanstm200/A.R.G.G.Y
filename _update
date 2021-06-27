@@ -1,0 +1,10 @@
+#!/bin/bash
+cd
+sudo apt update
+sudo apt upgrade
+sudo apt-get install emacs
+sudo apt-get install gcc
+sudo apt-get install git
+git clone https://github.com/juanstm200/A.R.G.G.Y.git
+ccp A.R.G.G.Y/.bashrc ~/
+source ~/.bashrc
