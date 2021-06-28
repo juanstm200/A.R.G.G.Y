@@ -3,8 +3,6 @@
 This module contains the entry point of the command interpreter
 """
 import cmd
-from os import remove
-from typing import Text
 from models.base_model import BaseModel
 from models import storage
 
@@ -96,7 +94,7 @@ class HBNBCommand(cmd.Cmd):
             key_name = arguments[0] + "." + arguments[1]
             obj = storage.find_key(key_name)
             if obj is not None:
-                storage.all().clear()
+                storage.all().pop(key_name)
                 storage.save()
 
     def do_all(self, line):
