@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.pinimg.com/originals/73/2c/fd/732cfd6d6464ec8488094b1f146de583.jpg"/></p>
+<p align="center"><img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20210629%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210629T202646Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0d60c5dfc5cb4d3b82c8f63da7a52f0896447bc69c87bdfc9419c74e180b9187"/></p>
 # Monty - LIFO, FIFO
 
 Monty 0.98 is a scripting language that is first compiled into Monty bytecode like Python. It relies on a unique stack with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
