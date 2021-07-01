@@ -10,7 +10,7 @@ The console AirBnB Clone is a line interpreter that allows the user, interact di
 
 Usage This console can be run both interactively and non-interactively. For a better image of how to do this, here is a example of both methods
 
-** Non-interactive mode **
+**Non-interactive mode**
 ```
 $ echo "help" | ./console.py
 (hbnb)
@@ -20,7 +20,7 @@ EOF  all  create  destroy  help  quit  show  update
 
 (hbnb)
 ```
-** Interactive mode **
+**Interactive mode**
 ```
 ./console.py
 (hbnb)help
@@ -42,14 +42,14 @@ The principle execution file has already all permission needed, with a simple ex
 ubuntu:~/AirBnB$ ./console.py
 ```
 
-** create **
+**create**
 Creates a new base BaseModel, or any kind of his instances: City, Amenity, Place, Review, State, User And prints on screen his unique id (uuid4) for a future reffer ; and at the same time, creates a file <file.json> where we could store, manage and save all instances created in the process. ie: "$ create BaseModel"
 ```
 (hbnb)create BaseModel
 a3e2850a-41c9-490b-8c26-af9f65d64fff
 ```
 
-** show **
+**show**
 Prints the string representation of an instance based on the class name and id "$ show BaseModel a3e2850a-41c9-490b-8c26-af9f65d64fff"
 ```
 (hbnb)show BaseModel a3e2850a-41c9-490b-8c26-af9f65d64fff
