@@ -43,6 +43,7 @@ ubuntu:~/AirBnB$ ./console.py
 ```
 
 **create**
+
 Creates a new base BaseModel, or any kind of his instances: City, Amenity, Place, Review, State, User And prints on screen his unique id (uuid4) for a future reffer ; and at the same time, creates a file <file.json> where we could store, manage and save all instances created in the process. ie: "$ create BaseModel"
 ```
 (hbnb)create BaseModel
@@ -50,10 +51,42 @@ a3e2850a-41c9-490b-8c26-af9f65d64fff
 ```
 
 **show**
+
 Prints the string representation of an instance based on the class name and id "$ show BaseModel a3e2850a-41c9-490b-8c26-af9f65d64fff"
 ```
 (hbnb)show BaseModel a3e2850a-41c9-490b-8c26-af9f65d64fff
 [BaseModel] (a3e2850a-41c9-490b-8c26-af9f65d64fff) {'id': 'a3e2850a-41c9-490b-8c26-af9f65d64fff', 'created_at': datetime.datetime(2021, 7, 1, 6, 57, 25, 959773), 'updated_at': datetime.datetime(2021, 7, 1, 6, 57, 25, 959998)}
+```
+
+**all**
+
+Prints all string representation of all instances based or not on the class name. ie: "$ all BaseModel" or "$ all"
+```
+(hbnb)all MyModel
+** class doesn't exist **
+(hbnb)all BaseModel
+["[BaseModel] (a3e2850a-41c9-490b-8c26-af9f65d64fff) {'id': 'a3e2850a-41c9-490b-8c26-af9f65d64fff', 'created_at': datetime.datetime(2021, 7, 1, 6, 57, 25, 959773), 'updated_at': datetime.datetime(2021, 7, 1, 6, 57, 25, 959998)}"]
+(hbnb)all
+["[BaseModel] (a3e2850a-41c9-490b-8c26-af9f65d64fff) {'id': 'a3e2850a-41c9-490b-8c26-af9f65d64fff', 'created_at': datetime.datetime(2021, 7, 1, 6, 57, 25, 959773), 'updated_at': datetime.datetime(2021, 7, 1, 6, 57, 25, 959998)}"]
+(hbnb)
+```
+
+**update**
+
+Updates an instance based on the class name and id by adding or updating attribute (save the change into the <file.json>). ie: "$ update BaseModel 1234-1234-1234 email "aibnb@holbertonschool.com"
+```
+(hbnb)update BaseModel a3e2850a-41c9-490b-8c26-af9f65d64fff first_name "Betty"
+(hbnb)show BaseModel a3e2850a-41c9-490b-8c26-af9f65d64fff
+[BaseModel] (a3e2850a-41c9-490b-8c26-af9f65d64fff) {'id': 'a3e2850a-41c9-490b-8c26-af9f65d64fff', 'created_at': datetime.datetime(2021, 7, 1, 6, 57, 25, 959773), 'updated_at': datetime.datetime(2021, 7, 1, 7, 7, 25, 417827), 'first_name': '"Betty"'}
+```
+
+**destroy**
+
+destroys an object by his unique id, stored in <file.json>. ie: "$ destroy BaseModel a3e2850a-41c9-490b-8c26-af9f65d64fff"
+```
+(hbnb)destroy BaseModel a3e2850a-41c9-490b-8c26-af9f65d64fff
+(hbnb)show BaseModel a3e2850a-41c9-490b-8c26-af9f65d64fff
+** no instance found **
 ```
 ## Functions
 | Funcion | Description |
