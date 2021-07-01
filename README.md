@@ -1,66 +1,60 @@
 <p align="center"><img src="https://camo.githubusercontent.com/7e9956678cbe5ec1d712dde039115910e2002db17bc7ff7e7d1638915c500827/68747470733a2f2f692e6962622e636f2f324e42596259762f434c4f4e312e706e67" width="676" height="285"/></p>
-# Monty - LIFO, FIFO
 
-Monty 0.98 is a scripting language that is first compiled into Monty bytecode like Python. It relies on a unique stack with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
+# AirBnB clone - The console
 
-## Requirements
+In this project of Airbnb_clone seeks as a first instance to create a console that will cover fundamental concepts of programming in Python such as handling classes, objects, handling JSON files. The objective of the project is to deploy a console with its own commands where eventually you can deploy a web server that will be a copy of the Airbnb website this as a segment project for Holberton School
 
-- All files compiled on Ubuntu 14.04 LTS
-- Allow to use max one global variable
-- **Usage**: monty file
-  - where file is the path to the file containing Monty byte code
-- If the user does not give any file or more than one argument to your program, print the error message ```USAGE: monty file```, followed by a new line, and exit with the status ```EXIT_FAILURE```
-- If, for any reason, it’s not possible to open the file, print the error message ```Error: Can't open file <file>```, followed by a new line, and exit with the status ```EXIT_FAILURE```
-   - where <file> is the name of the file
-- If the file contains an invalid instruction, print the error message ```L<line_number>: unknown instruction <opcode>```, followed by a new line, and exit with the status ```EXIT_FAILURE```
-   - where is the line number where the instruction appears.
-   - Line numbers always start at 1
-- The monty program runs the bytecodes line by line and stop if either:
-   - it executed properly every line of the file
-   - it finds an error in the file
-   - an error occured
-- If you can’t malloc anymore, print the error message ```Error: malloc failed```, followed by a new line, and exit with status ```EXIT_FAILURE```.
-- You have to use malloc and free and are not allowed to use any other function from man malloc (realloc, calloc, …)
 
-## Compile
-```$ gcc -Wall -Werror -Wextra -pedantic *.c -o monty```
+# Console
+The console AirBnB Clone is a line interpreter that allows the user, interact directly from a database <file.json>, editing, creating and removing objects, attributtes and values from the own object
 
-```$ ./monty file_monty.m```
+Usage This console can be run both interactively and non-interactively. For a better image of how to do this, here is a example of both methods
 
-## Examples
-there is a file called 00.m for the example that will contain:
-the implementation of the code with push and pall:
+** Non-interactive mode **
+```
+$ echo "help" | ./console.py
+(hbnb)
+Documented commands (type help <topic>):
+========================================
+EOF  all  create  destroy  help  quit  show  update
 
-      $ cat bytecodes/00.m 
-      push 1
-      push 2
-      push 3
-      pall
-      $ ./monty bytecodes/00.m 
-      3
-      2
-      1
-Implementing the pint opcode:
+(hbnb)
+```
+** Interactive mode **
+```
+./console.py
+(hbnb)help
 
-      $ cat bytecodes/06.m 
-      push 1
-      pint
-      push 2
-      pint
-      push 3
-      pint
-      $ ./monty bytecodes/06.m
-      1
-      2
-      3
-Implementing the pchar opcode:
+Documented commands (type help <topic>):
+========================================
+EOF  all  create  destroy  help  quit  show  update
 
-      $ cat bytecodes/28.m 
-      push 69
-      pchar
-      $ ./monty bytecodes/28.m 
-      E
+(hbnb)help quit
+Quit command to exit the program
 
+(hbnb)quit
+```
+
+# Console commands
+
+The principle execution file has already all permission needed, with a simple execution in linux environment "./", the console will start
+```
+ubuntu:~/AirBnB$ ./console.py
+```
+
+** create **
+Creates a new base BaseModel, or any kind of his instances: City, Amenity, Place, Review, State, User And prints on screen his unique id (uuid4) for a future reffer ; and at the same time, creates a file <file.json> where we could store, manage and save all instances created in the process. ie: "$ create BaseModel"
+```
+(hbnb)create BaseModel
+a3e2850a-41c9-490b-8c26-af9f65d64fff
+```
+
+** show **
+Prints the string representation of an instance based on the class name and id "$ show BaseModel a3e2850a-41c9-490b-8c26-af9f65d64fff"
+```
+(hbnb)show BaseModel a3e2850a-41c9-490b-8c26-af9f65d64fff
+[BaseModel] (a3e2850a-41c9-490b-8c26-af9f65d64fff) {'id': 'a3e2850a-41c9-490b-8c26-af9f65d64fff', 'created_at': datetime.datetime(2021, 7, 1, 6, 57, 25, 959773), 'updated_at': datetime.datetime(2021, 7, 1, 6, 57, 25, 959998)}
+```
 ## Functions
 | Funcion | Description |
 |---------|-------------|
